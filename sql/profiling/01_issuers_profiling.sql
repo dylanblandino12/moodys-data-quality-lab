@@ -6,7 +6,8 @@
 --   - Check uniqueness
 --   - Identify invalid values
 --   - Quantify early data quality risks
--- Dataset: data/dirty/issuers_dirty.csv
+-- Dataset: moodys_dq_lab.issuers_dirty
+-- Platform: BigQuery
 -- Author: Dylan Blandino
 -- =============================================
 
