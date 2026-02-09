@@ -172,3 +172,11 @@ FROM `moodys_dq_lab.issuers_dirty`;
 -- =============================================
 -- Q5 - Summary metrics
 -- =============================================
+
+
+-- Duplicates detected: 15 extra rows
+-- Invalid country: 25 rows (~5%)
+-- Invalid revenue: 15 rows (~3%)
+-- See official metrics in:
+--   sql/scorecards/01_issuers_dq_scorecard.sql
+
