@@ -1,8 +1,10 @@
 -- =============================================
 -- File: 01_issuers_dq_scorecard.sql
--- Purpose: Data Quality summary scorecard for issuers table
+-- Purpose: Create Data Quality summary scorecard view for issuers table
 -- Platform: BigQuery
 -- =============================================
+
+CREATE OR REPLACE VIEW moodys_dq_lab.v_issuers_dq_scorecard AS
 
 WITH base AS (
   SELECT *
